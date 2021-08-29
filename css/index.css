@@ -1,0 +1,128 @@
+.mySlides {
+	display:none;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.titleImage {
+	border-radius: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 35%;
+	padding-left: 5px;
+}
+
+h1 {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 5%;
+}
+
+h2 {
+	width: 70%;
+	margin: 0 auto;
+	font-size: 35px;
+	padding: 1% 0%;
+}
+
+#Description {
+	padding: 2% 20%;
+	margin: 0px;
+}
+
+.miniSectionMedia{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 2%
+}
+
+.miniSectionDescription{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 1% 0%;
+}
+
+hr {
+	border-top: 1px solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.topnav {
+	display: none;
+}
+
+@media screen and (min-width: 1200px){
+	.titleImage{
+		width: 15%;
+		float: left;
+		margin-left: 5%;
+	}
+	.TopDescription{
+		padding-left: 30%;
+		padding-bottom: 2%;
+	}
+	#title{
+		font-size: 50px;
+	}
+	#Description{
+		font-size: 20px;
+	}
+}
+
+.sideside{
+	margin: 0 auto;
+}
+
+.MannImage{
+	display: inline-block;
+	margin: 0 auto;
+}
+#gui{
+	width: 70%;
+}
+#eyetap{
+	width: 30%;
+}
+
+.SETI_Image{
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+#SETIImage{
+	padding-left: 2%;
+}
+
+#EGOImage{
+	padding-right: 2%;
+}
+
+.mini_button {
+  overflow: hidden;
+}
+
+.mini_button a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.mini_button a.active {
+  background-color: #2858a6;
+  color: white;
+}
+
+.mini_button a:hover {
+  background-color: #ddd;
+  color: black;
+}
