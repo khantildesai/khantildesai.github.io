@@ -126,3 +126,9 @@ hr {
   background-color: #ddd;
   color: black;
 }
+
+.main {
+  margin-bottom: 60px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  min-height: 100vh;
+}
