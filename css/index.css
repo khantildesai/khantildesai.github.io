@@ -25,6 +25,7 @@ h1 {
 h2 {
 	width: 70%;
 	margin: 0 auto;
+	text-align: center;
 	font-size: 35px;
 	padding: 1% 0%;
 }
@@ -42,7 +43,7 @@ h2 {
 
 .miniSectionDescription{
 	width: 70%;
-	margin: 0 auto;
+	margin: auto;
 	font-size: 20px;
 	padding: 1% 0%;
 }
@@ -106,6 +107,7 @@ hr {
 
 .mini_button {
   overflow: hidden;
+  margin: auto;
 }
 
 .mini_button a {
@@ -115,6 +117,7 @@ hr {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin: auto;
 }
 
 .mini_button a.active {
@@ -131,4 +134,5 @@ hr {
   margin-bottom: 60px; /* Same as the width of the sidebar */
   padding: 0px 10px;
   min-height: 100vh;
+  text-align: center;
 }

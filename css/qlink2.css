@@ -1,15 +1,15 @@
 /* Place the navbar at the bottom of the page, and make it stick */
-.qlink {
-  background-color: #333;
+.qlink2 {
+  background-color: #ffffff;
   overflow: hidden;
   /*bottom: 0;*/
-  width: 232px;
+  width: 120px;
   margin: 0 auto;
   border-radius: 5px;
 }
 
 /* Style the links inside the navigation bar */
-.qlink a {
+.qlink2 a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -17,20 +17,21 @@
   padding: 7px 8px;
   text-decoration: none;
   font-size: 17px;
-  background-color: #e6e6e6;
+  background-color: #2858a6;
   border: solid;
   border-radius: 5px;
   margin: 3px;
 }
 
 /* Change the color of links on hover */
-.qlink a:hover {
-  background-color: #ddd;
-  color: black;
+.qlink2 a:hover {
+  background-color: #4c6ea3;
+  color: #f2f2f2;
 }
 
 /* Add a color to the active/current link */
-.qlink a.active {
+.qlink2 a.active {
   background-color: #2858a6;
   color: white;
+  border-radius: 3px;
 }
